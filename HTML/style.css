@@ -1,0 +1,78 @@
+.joy1{
+    text-align: center;
+    color: rgb(179, 12, 12);
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: green;
+    text-shadow: 3px 2px greenyellow;
+    text-transform: capitalize;
+}
+.pragraph{
+    text-indent: 200px;
+    text-align:justify;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    line-height: 20px;
+    font-variant:inherit;
+    font-family: Arial, Helvetica, sans-serif;
+}
+span{
+    font-variant:small-caps;
+    vertical-align: -50px;
+}
+.linear{
+    border: 3px solid red;
+    width: 70%;
+    height: 800px;
+    background-image: linear-gradient(red,yellow,green ),url("image/jahan.jpg");
+    background-blend-mode: color;
+    background-size: cover;
+    margin: auto;
+    filter:hue-rotate(90deg);
+    background-attachment: fixed;
+}
+.jahan{  width: 100%;
+    height: 1200px;
+ 
+}
+.text{
+    width: 600px;
+    height: 80px;
+    border: 1px solid gray;
+    position: relative;
+    text-align: center;
+    margin:300px auto;
+    background-image: linear-gradient(red,yellow,lightgreen);
+    opacity: .4;
+    padding-top: 40px ;
+    
+}
+.text2{
+   
+    color: rgb(155, 27, 27);
+    font-size: 50px;
+    margin:10px;
+    opacity: 1;
+    z-index: 100px;
+    
+}
+.box{
+  
+    width: 500px;
+    height: 300px;
+    border: 1px solid red;
+    margin: 100px auto;
+    overflow: scroll;
+    box-sizing:border-box;
+    padding: 0px 90px;
+   
+
+}
+.iframetag{
+    width: 500px ;
+    height: 500px;
+    border: 1px solid greenyellow;
+}
+.ankertag{
+    text-decoration: none;
+}

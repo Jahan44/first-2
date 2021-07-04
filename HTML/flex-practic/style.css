@@ -1,0 +1,28 @@
+
+.container{
+    background-color: aqua;
+    display: flex;
+    /* flex-direction: column-reverse; */
+    flex-flow: wrap row;
+  
+    /* align-items: flex-end; */
+  
+}
+
+
+.container >div{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(35, 194, 48);
+   padding: 10px;
+   border: 1px solid red;
+   margin: 5px;
+   font-size: 25px;
+  
+}
+.item-5{
+    flex-grow: 2;
+}
+.item-1{
+    flex-grow: 2;
+}

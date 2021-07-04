@@ -1,0 +1,22 @@
+.sona{
+    height: 400px;
+    max-width: 400px;
+    border: 10px solid red;
+    font-size: 32px;
+    margin: 34px auto;
+    box-sizing: content-box;
+    padding: 1px ;
+    resize: none;
+    box-shadow: 4px 8px 133px 142px royalblue;
+    text-shadow: 4px 4px  5px red;
+   writing-mode: sideways-rl;
+   text-orientation: upright;
+    
+    
+    
+}
+ul li{
+    text-decoration: none;
+    display: inline;
+    margin-left: 40px;
+}

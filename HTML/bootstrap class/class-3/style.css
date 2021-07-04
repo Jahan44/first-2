@@ -1,0 +1,14 @@
+
+
+.image-cover{
+   width: 80px;
+   height: 80px;
+}
+.sona{
+   display: inline-block;
+   text-align: center;
+}
+.brightness{
+   filter: brightness(150%);
+   
+}

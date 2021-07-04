@@ -1,0 +1,80 @@
+*{
+ 
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient( green ,rgb(35, 224, 60) ,yellow),url("jahan.png") ;
+    background-blend-mode: hue;
+    background-size: cover;
+   
+    
+}
+.logo img{
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 80px;
+    border-radius: 50%;
+}
+.nave{
+    width: 85%;
+    justify-content: space-between;
+    display:flex;
+
+}
+.nave ul{
+    list-style: none;
+   
+}
+.nave ul li a{
+   
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    background-color: chartreuse;
+    
+  
+   }
+
+   .nave ul li{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 60px;
+    position: relative;
+
+   }
+   .nave ul li ::after{
+       content:"" ;
+       width: 0px;
+       height: 5px;
+       background-color: yellowgreen;
+       position: absolute;
+       left: 0px;
+       bottom: 0px;
+       transition: all .5s;
+   }
+
+ .nave ul li :hover::after{
+    width: 100%; 
+ }
+ .hirer{
+     position:absolute;
+     top:0%;
+     display: block;
+ }
+ .hirer li{
+     background-color: coral;
+ }
+ li .roy:active+.hirer {
+    
+    
+    display: block;
+   
+
+ }
+ 

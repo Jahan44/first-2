@@ -1,0 +1,30 @@
+
+.img{
+    width: 400px;
+    height: 500px;
+}
+.boba{
+    border: 5px solid rgb(0, 255, 55);
+}
+.inline{
+    display: inline-block;
+}
+.white{
+    color: #fff;
+    font-size: 20px;
+    display: inline-block;
+}
+@media screen {
+    
+}
+.rrrr{
+    text-align: justify;
+}
+.image-logo{
+    width: 120px;
+    height: 100px;
+    
+}
+.ppp{
+    text-align: justify;
+}
